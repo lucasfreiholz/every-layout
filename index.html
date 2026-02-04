@@ -23,16 +23,14 @@
 			/* parce que on utilise un systeme flex, la largeur ne marche pas, on règle avec flex */
 			flex: 0 0 15rem;
 			aspect-ratio: 1/1;
-			object-fit: cover;
-		
 		}
 		.vignette img{
 			width: 100%;
 			height: 100%;
-			object-fit: cover;
+			object-fit: contain;
+		}
 
-		}</style>
-
+	</style>
 
 </head>
 <body>
@@ -46,10 +44,11 @@
 			</div>
 			<div class="description">
 				<h3> Une simple page de texte.</h3>
-				<p></p>
+				<br><p>Fonction essentiel pour une page simple:
 				<br><code> body {max-width: 30rem; margin: auto;} </code>
 			</div>
 	</section>
+
 
 		<section>
 			<div class="vignette">
@@ -59,11 +58,12 @@
 		</div>
 		<div class="description">
 				<h3> Deux colonnes.</h3>
-				<p></p>
+				<br><p>Flex is the answer:
 				<br><code> body {max-width: 30rem; margin: auto;} </code>
 			</div>
 	</section>
 	
+
 		<section>
 			<div class="vignette">
 				<a href="layout-03-zigzag.html">
@@ -72,8 +72,8 @@
 		</div>
 		<div class="description">
 				<h3> Zigzag.</h3>
-				<p></p>
-				<br><code> body {max-width: 30rem; margin: auto;} </code>
+				<br><p>A fond</p>
+				<code> body {max-width: 30rem; margin: auto;} </code>
 			</div>
 	</section>
 	
